@@ -1,0 +1,20 @@
+{
+  "name": "f4cte/api",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "facte sun",
+      "email": "shems.chelgoui@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "php -S localhost:8000 -t public"
+  },
+  "require": {
+    "symfony/dotenv": "^6.2"
+  }
+}
